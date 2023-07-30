@@ -17,9 +17,10 @@ export const Label = styled.label`
 export const Input = styled.input`
   width: 200px;
   height: 20px;
-  margin-top: 2px;
+  margin-top: 4px;
+  padding: 4px;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
 `;
 
 export const Button = styled.button`
@@ -29,7 +30,7 @@ export const Button = styled.button`
   border: none;
   font-weight: 500;
   border-radius: 10px;
-  :hover {
+  &:hover {
     color: white;
     scale: 1.05;
     cursor: pointer;
