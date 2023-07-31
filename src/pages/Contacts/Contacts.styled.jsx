@@ -6,7 +6,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  /* background-color: #7cadd2; */
   background-color: #607d8bc4;
   margin: auto;
   margin-top: 100px;

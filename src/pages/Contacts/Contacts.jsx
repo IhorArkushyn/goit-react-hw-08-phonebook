@@ -1,11 +1,11 @@
-import * as S from './Contacts.styled';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import ContactForm from 'components/ContactForm/ContactForm';
 import ContactList from 'components/ContactList/ContactList';
 import Filter from 'components/Filter/Filter';
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
 import { fetchContacts } from 'redux/phonebook/operations';
 import { getError, getIsLoading, selectPhones } from 'redux/phonebook/selector';
+import * as S from './Contacts.styled';
 
 export default function Contacts() {
   const dispatch = useDispatch();

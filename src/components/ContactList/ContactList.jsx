@@ -1,7 +1,7 @@
-import ContactListItem from 'components/ContactListItem/ContactListItem';
-import { ContactListStyle } from './ContactList.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectFilter, selectPhones } from 'redux/phonebook/selector';
+import ContactListItem from 'components/ContactListItem/ContactListItem';
+import { ContactListStyle } from './ContactList.styled';
 import { deleteContact } from 'redux/phonebook/operations';
 
 const ContactList = () => {
